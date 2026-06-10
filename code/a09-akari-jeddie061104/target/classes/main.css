@@ -1,0 +1,92 @@
+/**
+ * Write CSS code in this file to style your JavaFX user interface
+ *
+ * Note: You must link this file to your scene object by adding the following line of code to the
+ * JavaFX start() method:
+ *   scene.getStylesheets().add("main.css");
+ */
+.grid-pane {
+    -fx-background-color: black;
+}
+
+
+.wall-cell {
+    -fx-background-color: black;
+    -fx-border-color: black;
+    -fx-border-width: 1;
+}
+
+
+.clue-cell {
+    -fx-background-color: lightblue;
+    -fx-text-fill: black;
+    -fx-border-color: black;
+    -fx-border-width: 1;
+    -fx-font-weight: bold;
+    -fx-alignment: center;
+}
+
+
+.corridor-cell {
+    -fx-background-color: white;
+    -fx-border-color: black;
+    -fx-border-width: 1;
+}
+
+
+.corridor-cell.lit {
+    -fx-background-color: lightyellow;
+}
+
+
+.corridor-cell.lamp {
+    -fx-background-color: lightyellow;
+    -fx-background-image: url('light-bulb.png');
+    -fx-background-size: cover;
+    -fx-border-color: black;
+    -fx-border-width: 1;
+}
+
+.hbox-controls {
+    -fx-padding: 10px;
+    -fx-spacing: 10px;
+    -fx-alignment: center;
+    -fx-background-color: #f0f0f0;
+    -fx-border-color: #cccccc;
+    -fx-border-width: 2;
+    -fx-border-radius: 10;
+}
+
+
+.hbox-controls .button {
+    -fx-background-color: #4CAF50;
+    -fx-text-fill: white;
+    -fx-font-size: 14px;
+    -fx-padding: 8px 12px;
+    -fx-border-radius: 5px;
+    -fx-border: none;
+    -fx-cursor: hand;
+    -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.25), 4, 0.5, 0, 0);
+    -fx-transition: background-color 0.3s ease;
+}
+
+
+.hbox-controls .button:hover {
+    -fx-background-color: #45a049;
+}
+
+
+.hbox-controls .button.reset {
+    -fx-background-color: #f44336;
+}
+
+.hbox-controls .button.reset:hover {
+    -fx-background-color: #d32f2f;
+}
+
+
+.hbox-controls .label {
+    -fx-font-weight: bold;
+    -fx-font-size: 16px;
+    -fx-text-fill: #333333;
+}
