@@ -1,6 +1,6 @@
 # Akari Puzzle Game
 
-A desktop implementation of the classic **Akari (Light Up)** logic puzzle built in **Java** using **JavaFX**. This project was developed as part of a software engineering course and follows the **Model-View-Controller (MVC)** design pattern along with the **Observer Pattern** for updating the user interface.
+A desktop implementation of the classic **Akari (Light Up)** logic puzzle built in **Java** using **JavaFX**. This project was developed as part of a programming patterns course and follows the **Model-View-Controller (MVC)** design pattern along with the **Observer Pattern** for updating the user interface.
 
 ## Features
 
