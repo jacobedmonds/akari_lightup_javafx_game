@@ -39,7 +39,7 @@ Rules:
 
 ## Screenshots
 
-_Add screenshots here if desired._
+![Akari Puzzle Gameplay](screenshots/akari-screenshot.png)
 
 ## Author
 
